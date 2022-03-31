@@ -47,7 +47,7 @@ bf_threshold = 5e6;
 % A = getGraphStarfish;
 % A = getGraphSuetake;
 % A = getGraphSuzuki;
- A = getGraphSzekeresSnark; 
+% A = getGraphSzekeresSnark; 
 % A = getGraphTruncTetraDual;
 % A = getGraphTruncTetra;
 % A = getGraphTruncatedCubeOcta;
@@ -57,7 +57,7 @@ bf_threshold = 5e6;
 % A = getGraphWatkinsSnark;
 % A = getGraphZara;
 
-% A = createRandRegGraph(12,3);
+% A = createRandRegGraph(vertices,regularity);
 
 % [~,A] = makeLineGraph(A);  %line graph
 n = size(A,1);
